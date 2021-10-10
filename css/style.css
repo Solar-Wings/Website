@@ -592,7 +592,7 @@ pre code {
   max-height: 340px;
   overflow-y: scroll;
 }
-
+/* 
 .container,
 .container-fluid,
 .container-sm,
@@ -622,6 +622,7 @@ pre code {
   .container, .container-sm, .container-md, .container-lg {
     max-width: 960px;
   }
+  
 }
 
 @media (min-width: 1200px) {
@@ -1528,7 +1529,7 @@ pre code {
   .offset-xl-11 {
     margin-left: 91.66667%;
   }
-}
+} */
 
 .table {
   width: 100%;
@@ -9711,4 +9712,22 @@ h4, h5, h6 {
 }
 .insta:hover {
   color: orangered;
+}
+.px-100{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+
+@media screen and (min-width: 1200px) {
+  .px-70 {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .px-70 {
+    padding-right: 200px;
+    padding-left: 200px;
+  }
 }
